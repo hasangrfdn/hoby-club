@@ -1,11 +1,11 @@
 <?php
-$servername = "sql111.infinityfree.com";
-$username = "if0_36633377";
-$password = "OEQxS2A95dNLG";
-$dbname = "if0_36633377_hobi_kulubu";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hobi_kulubu";
 
 // Bağlantı oluşturma
-$conn = new mysqli("sql111.infinityfree.com", "if0_36633377", "OEQxS2A95dNLG"	, "if0_36633377_hobi_kulubu");
+$conn = new mysqli("localhost", "root", ""	, "hobi_kulubu");
 
 // Bağlantıyı kontrol etme
 if ($conn->connect_error) {
